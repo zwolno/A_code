@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">YourAppName</string>
+    <string-array name="date_array">
+        <item>202401</item>
+        <item>202402</item>
+        <item>202403</item>
+        <item>202404</item>
+        <item>202405</item>
+        <item>202406</item>
+        <item>202407</item>
+        <item>202408</item>
+        <item>202409</item>
+        <item>202410</item>
+        <item>202411</item>
+        <item>202412</item>
+    </string-array>
+</resources>

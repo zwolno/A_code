@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.financial.management">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/img"
+        android:label="个人财务管理App"
+        android:roundIcon="@drawable/img"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Final">
+        <activity
+            android:name=".RecordStatistics"
+            android:exported="false" />
+        <activity
+            android:name=".RecordItemLayout"
+            android:exported="false" />
+        <activity android:name=".ManageActivity" />
+        <activity android:name=".SearchRecordActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".UserCenterActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
